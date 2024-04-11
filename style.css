@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-transform: capitalize;
+    text-decoration: none;
+    outline: 0;
+    border: 0;
+    transition: all 0.3s linear;
+    font-family: "Times New Roman", Times, serif;
+}
+html{
+    font-size: 66%;
+    scroll-behavior: smooth;
+}
+:root{
+    --bg:#ffb320;
+    --color:#212529;
+}
+img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.navbar{
+    background: var(--color);
+}
+.Home img{
+    min-height: 90vh;
+    object-fit: cover;
+    position: relative;
+}
+.Home .content{
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    transform: translateY(-50%);
+}
+.Home .content p{
+    line-height:2;
+}
+.cards.image{
+    position: relative;   
+}
+.cards .image span{
+    position: absolute;
+    top: 10px;
+    left: 20px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 600px){
+    html{
+        font-size: 50%;
+    }
+    .navbar .login{
+        display: none;
+        
+    }
+}
+    
